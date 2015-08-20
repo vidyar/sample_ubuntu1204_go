@@ -6,7 +6,7 @@ go:
   - 1.4
   
   
-build_image: shipimg/ubuntu1204_go
+build_image: shipimg/ubuntu1204_go: 0.0.2
 
 env:
   - CI_REPORT=shippable/testresults/junit.xml
